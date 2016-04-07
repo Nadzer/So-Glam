@@ -132,7 +132,6 @@ public class CoverFlowActivity extends AppCompatActivity
 
         if (id == R.id.fb) {
             String url = "https://www.facebook.com/SoGlam-Cr%C3%A9ation-865367490170994/?ref=hl";
-            Uri uri = Uri.parse(url);
             try {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://facewebmodal/f?href=" + url)));
             } catch (Exception e) {

@@ -4,8 +4,6 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -41,10 +39,8 @@ public class GalleryActivity extends AppCompatActivity {
                         v.getWidth(), v.getHeight());
                 if (Double.parseDouble(android.os.Build.VERSION.RELEASE
                         .substring(0, 3)) >= 1.6) {
-                    Log.d("__start_activity", "1");
                     startActivity(intent, options.toBundle());
                 } else {
-                    Log.d("__start_activity", "2");
                     startActivity(intent);
                 }
             }
@@ -63,20 +59,5 @@ public class GalleryActivity extends AppCompatActivity {
         }
 
         return imageItems;
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
     }
 }
