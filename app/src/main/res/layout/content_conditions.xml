@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="it.moondroid.coverflowdemo.activities.ConditionsActivity"
+    tools:showIn="@layout/activity_conditions">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/condition_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/contact_image"
+            android:contentDescription="@string/contact_image"
+            android:scaleType="fitStart" />
+
+        <TextView
+            android:id="@+id/condition_title"
+            android:layout_below="@+id/condition_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nos conditions"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/condition_title"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+</ScrollView>

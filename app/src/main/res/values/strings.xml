@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">So Glam Creation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">Caftan Inès</string>
+    <string name="title_2">Caftan Hanna</string>
+    <string name="title_3">Caftan Camélia</string>
+    <string name="title_4">Caftan Améthyste</string>
+    <string name="title_5">Caftan Electra</string>
+    <string name="title_6">Caftan Marina</string>
+    <string name="title_7">Caftan Trésor</string>
+    <string name="title_8">Caftan Sunshine</string>
+    <string name="prix_1"><![CDATA[Taille 34 au 38<br />Location 90€]]></string>
+    <string name="prix_2"><![CDATA[Taille 36 au 40<br />Location 150€]]></string>
+    <string name="prix_3"><![CDATA[Taille 36 au 38<br />Location 90€]]></string>
+    <string name="prix_4"><![CDATA[Taille 36 au 40<br />Location 90€]]></string>
+    <string name="prix_5"><![CDATA[Taille 34 au 38<br />Location 90€]]></string>
+    <string name="prix_6"><![CDATA[Taille 34 au 40<br />Location 90€]]></string>
+    <string name="prix_7"><![CDATA[Taille 36 au 40<br />Location 100€]]></string>
+    <string name="prix_8"><![CDATA[Taille 36 au 40<br />Location 150€]]></string>
+
+    <string name="conditions_list">
+        <![CDATA[
+• Essayage uniquement sur RDV PARIS 15ème dans notre show-room.<br />
+• Aucune réservation n’est validée par téléphone ou oralement, mais uniquement au dépôt de l’acompte par la cliente dans notre show-room.<br />
+• Messieurs pour des raisons d’intimité et de confort pour les clientes, votre présence n’est pas autorisée.<br />
+• Lors des prise de robe, le solde du paiement s’effectue uniquement en espèces.<br />
+• Un acompte de 50 % est demandé pour les robes.<br />
+• L’acompte n’est pas remboursable en cas d’annulation du fait du client.<br />
+• Un chèque de caution vous sera automatiquement demandé lors de la réservation d’un montant équivalant à la valeur de la robe.<br />
+• Un état des lieux sera fait avant et après utilisation. Si le bien est endommagé la caution sera conservée, sauf si le bien loué est réparable, dans ce cas, le montant des retouches sera déduit de la caution. Le remboursement du dépôt de garantie sera effectué au retour du matériel en bon état. Dans le cas où le locataire ne restituerait pas le bien loué (vol ou perte), la caution sera également conservée.<br />
+• La caution est considérée comme encaissable à compter de 3 jours de retard.<br />
+• Des pénalités par jour de retard seront exigibles si les robes ne sont pas restituées le dimanche.<br />
+• Dans les cas où la robe ne nous est pas retournée dans les délais impartis, le loueur devra s’acquitter de pénalités de retard de 20 euros par jour de retard sachant que le calcul débute à partir de dimanche (Ex : Restitution lundi : 20 euros, Mardi : 40 euros, etc.).<br />
+• Un contrat de location sera établit et une copie de la pièce d’identité vous sera également demandée pour finaliser la réservation.<br />
+]]>
+    </string>
+
+    <string name="title1">God of War Ascension</string>
+    <string name="title2">Assassin\'s Creed III</string>
+    <string name="title3">Hitman Absolution</string>
+    <string name="title4">Dishonored</string>
+    <string name="contact_name">Nom</string>
+    <string name="contact_email">Adresse email</string>
+    <string name="contact_phone">Téléphone</string>
+    <string name="contact_message">Votre message</string>
+    <string name="contact_intro"><![CDATA[<b>Show Room :</b>
+Paris 15ème arrondissement<br />
+Uniquement sur rendez-vous. Pour toute demande d’information, vous pouvez nous contacter :<br /><br />
+<b>Par email :</b> contact@soglam-creation.fr<br />
+<b>Par Tél :</b> (+33)6 62 50 92 37<br /><br />
+Ou nous envoyer un message via le formulaire ci-dessous :]]></string>
+    <string name="contact_subject">Sujet</string>
+    <string name="contact_image">Contact\'s image</string>
+    <string name="send">Envoyer</string>
+    <string name="so_glam">So Glam Création</string>
+    <string name="collection_summer_2015">Collection Summer 2015</string>
+    <string name="gallery_drawer">Gallery</string>
+    <string name="caftan_invitees">Caftan invitées</string>
+    <string name="caftan_mariees_2015">Caftan mariées summer 2015</string>
+    <string name="collection_caftan_mariees_2015">Caftan mariées</string>
+    <string name="collection_2015">Collection 2015</string>
+    <string name="collection_2015_video">Collection 2015 en vidéo</string>
+    <string name="video_drawer">Vidéos</string>
+    <string name="collection_summer_2015_video">Collection summer 2015 vidéo</string>
+    <string name="title_activity_test">Test</string>
+    <string name="image_gallery">Gallery image</string>
+    <string name="gallery_image">Gallery Image</string>
+    <string name="image">Image</string>
+    <string name="conditions">Nos conditions</string>
+    <string name="title_activity_conditions">Conditions</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="contact">Contact</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/collection_summer_2015">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/caftan_invitees" />
+
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/caftan_mariees_2015" />
+        </menu>
+    </item>
+
+    <item android:title="@string/collection_2015">
+        <menu>
+            <item
+                android:id="@+id/collection_caftan_invitees"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/caftan_invitees" />
+
+            <item
+                android:id="@+id/collection_caftan_mariees"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/collection_caftan_mariees_2015" />
+        </menu>
+    </item>
+
+    <item android:title="@string/video_drawer">
+        <menu>
+            <item
+                android:id="@+id/collection_summer_video_2015"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/collection_summer_2015_video" />
+
+            <item
+                android:id="@+id/collection_2015_video"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/collection_2015_video" />
+        </menu>
+    </item>
+
+    <item android:title="@string/so_glam">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/contact" />
+        </menu>
+    </item>
+
+</menu>
+
