@@ -3,7 +3,6 @@ package it.moondroid.coverflowdemo.activities;
 import android.app.ActivityOptions;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,7 +13,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -138,7 +136,7 @@ public class CoverFlowActivity extends AppCompatActivity
             try {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://facewebmodal/f?href=" + url)));
             } catch (Exception e) {
-                startActivity( new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
             }
         }
 
@@ -172,39 +170,26 @@ public class CoverFlowActivity extends AppCompatActivity
 
         if (id == R.id.nav_gallery) {
             i = new Intent(this, GalleryActivity.class);
-            Log.d("__activity", "créé 1");
             i.putExtra("identifier", "image_");
         } else if (id == R.id.nav_slideshow) {
-            Log.d("__activity", "créé 2");
             i = new Intent(this, GalleryActivity.class);
             i.putExtra("identifier", "caftan_");
-//            startActivity(i);
         } else if (id == R.id.collection_caftan_invitees) {
-            Log.d("__activity", "créé 3");
             i = new Intent(this, GalleryActivity.class);
             i.putExtra("identifier", "caftan_");
-//            startActivity(i);
         } else if (id == R.id.collection_caftan_mariees) {
-            Log.d("__activity", "créé 4");
             i = new Intent(this, GalleryActivity.class);
             i.putExtra("identifier", "caftan_");
-//            startActivity(i);
         } else if (id == R.id.collection_summer_video_2015) {
-            Log.d("__activity", "créé 5");
             i = new Intent(this, WebViewActivity.class);
             i.putExtra("identifier", "caftan_");
             i.putExtra("uri", "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/vyxci-2a_nM\" frameborder=\"0\" allowfullscreen></iframe>");
-//            startActivity(i);
         } else if (id == R.id.collection_2015_video) {
-            Log.d("__activity", "créé 6");
             i = new Intent(this, WebViewActivity.class);
             i.putExtra("uri", "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/E46A0xUcFW4\" frameborder=\"0\" allowfullscreen></iframe>");
             i.putExtra("identifier", "caftan_");
-//            startActivity(i);
         } else if (id == R.id.nav_send) {
-            Log.d("__activity", "créé 7");
             i = new Intent(this, ContactActivity.class);
-//            startActivity(i);
         }
 
         if (Double.parseDouble(android.os.Build.VERSION.RELEASE
